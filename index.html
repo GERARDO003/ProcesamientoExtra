@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de Imagenes</title>
+ 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        #particles-js{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  background-color: hsl(202, 93%, 49%);
+  background-image: url('01 (4).jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+        }
+    </style>
+<body >
+  
+<div id="particles-js"></div>
+    
+
+        <section class="container" style="color:rgb(255, 255, 255);">IMAGEN ORIGINAL</li>
+            <header class="header">
+                <center><li style="color:rgb(255, 255, 255);">IMAGEN A MANIPULAR</li></center>
+            </header>
+            <div class="item img-item">
+                <canvas id="img1" width="400" height="400" crossorigin="anonymous"> </canvas>
+                <canvas id="img2" width="700" height="480"> </canvas>
+
+                <div style="float:right">
+                    <span style="color:rgb(8, 131, 8);" id="op-rain"><p><input type="submit" value="efecto 1">
+                    </p></span></li>
+                    <br>
+                    <span style="color:rgb(8, 131, 8);" id="op-rain2"><p><input type="submit" value="efecto 2">
+                </p></span></div>
+                </div>
+        </section> 
+            
+        <div class="item">
+            <input type="file" id="files" name="files" />
+        </div>
+            <div class="item img-item">
+                <canvas id="img4" width="300" height="300" crossorigin="anonymous"> </canvas>
+            </div>
+            <div class="item">
+                <output id="list2"></output>
+            </div>   
+
+        <script src="dist/src/particles.min.js"></script>
+        <script src="dist/src/app.js"></script>
+       <script src="dist/src/index.js"  type="module">
+    
+    </script>
+
+</body>
+</html>
+
+ 
